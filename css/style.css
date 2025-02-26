@@ -12,7 +12,7 @@
   font-style: normal;
 }
 * body {
-  background-color: #F1F5F9;
+  background-color: white;
   box-sizing: border-box;
   padding: 0%;
   margin: 0%;
@@ -61,9 +61,11 @@
 }
 
 .top-header {
-  background-color: #F5FFF7;
+  background-color:#F5FFF7;
   border: 1px #E1F1BA;
-  height: 48px;
+  height: 50px;
+  /* position: absolute;
+  top:0% */
 }
 
 .enquiry-btn {
@@ -71,6 +73,8 @@
   color: #F5FFF7;
   border-radius: 10px;
   font-size: 14px;
+  
+
 }
 
 .logo {
@@ -180,6 +184,7 @@ color: #3AB54A;
 .next {
   position: absolute;
   top: 50%;
+  /* left: 20%; */
 }
 .next-text {
   color:#C6AD2E ;
@@ -191,13 +196,13 @@ color: #3AB54A;
 
 .course-section{
   background-color: #F1F5F9;
-  height: 100vh;
-  margin: 0%;
-  padding: 0%;
+  height: 1000px;
+  
 }
 .course-container{
-  margin-top: 20px;
-  margin-bottom: 10%;
+  height: 90%; 
+  background-color: white;
+
 }
 .course-txt {
   margin-top: 5%;
@@ -323,6 +328,179 @@ font-size: 32px;
   height: 600px;
   width: 1444px;
 }
-.material-section {
+
+/* material section */
+
+.material-container {
+  height: 90%; 
   background-color: #F5FFF7;
 }
+
+.material-card {
+  background-color: #E2E8F0;
+  border: 1px #DAEAFF;
+  border-radius: 10px;
+  height: 312px;
+  width: 600px;
+
+}
+.material-card-txt1 {
+  background-color: #C6AD2E;
+  font-size: 20px;
+  color: #F2F2F2;
+  padding: 2px 20px;
+}
+
+/* testomonial section */
+.testomonial-section {
+  background-color: #F1F5F9;
+  height: 600px;
+}
+.testomonial-container {
+   height: 550px; 
+  background-color: white;
+}
+.teso-img-container{
+  position: relative;
+}
+.teso-img1{
+  height: auto;
+  width:250px ;
+  margin-right: 10px;
+  border-radius: 12px;
+  margin-bottom: 35%;
+  margin-left: 5%;
+}
+.teso-img2{
+ height: auto;
+  width:250px ;
+  margin-right: 10px;
+  border-radius: 12px;
+  margin-bottom: 35%;
+}
+
+.teso-img3{
+  height: 300px;
+  width:250px ;
+  margin-right: 10px;
+  border-radius: 12px;
+  margin-bottom: 20%;
+}
+.testo-next {
+ 
+  position: absolute;
+  top: 63%;
+  right: 5%;
+  /* left: 20%; */
+}
+
+/* question section */
+
+.question-section {
+  background-color: #F1F5F9;
+  height: 1150px;
+}
+.question-container {
+   height: 550px; 
+  background-color: white;
+}
+.question-txt1 {
+  background-color: #E6CD50B2;
+  color: #2F2C2C;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 15px 40px;
+  margin-top: 50%;
+}
+.accordion-text {
+  color: #0A100A;
+  font-size: 29px !important;
+}
+.accordion-sub-text {
+  color: #6A6969;
+  font-size: 16px;
+}
+
+/* download-section */
+
+.download-container {
+  background-color: #DFFEE6;
+   height: 440px;
+}
+.mobile-container {
+  position: relative;
+}
+.mobile1-img {
+  position: absolute;
+  left: 10%;
+  margin-top: 10%;
+
+}
+.mobile2-img {
+  position: absolute;
+  right: 10%;
+  margin-top: 11%; 
+}
+.download-text {
+  font-size: 50px;
+  margin-top: 10%;
+}
+.play-btn {
+  background-color: #0A100A;
+  color: #F6F6F6;
+  border: 10px;
+  /* padding: 8px 16px; */
+  height: 80px;
+  width: 280px;
+  border-radius: 10px;
+}
+.play-btn2{
+  font-size: 28px;
+}
+.play-btn1{
+  font-size: 16px;
+}
+
+/* blog-section */
+
+.blog-section {
+
+ background-color: #F1F5F9;
+  height: 750px;
+}
+
+/* footer-section */
+.footer-section1{
+  background-color: #FFFFFF;
+  height: 300px;
+}
+.footer-section2{
+  background-color: #F1F5F9;
+  height: 100px;
+}
+.footer-sub-container{
+  margin-top: 8%;
+ 
+}
+.email{
+  position: relative;
+  border: 1px solid #475569;
+  padding: 9px 16px;
+  border-radius: 6px;
+}
+.email img {
+  position: absolute;
+  right: 2%;
+}
+.footer-logo{
+  height: 35px;
+  width: 35px;
+}
+.footer-end {
+  margin-left: 35%;
+  margin-top: 2%;
+}
+
+
+
+
